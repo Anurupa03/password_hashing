@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing :border-box;
+}
+
+ .container {
+    min-height : 100vh;
+    background : linear-gradient(to right top,#65dfc9, #6cdbeb);
+   display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    min-height: 60vh;
+    background: white;
+    width: 50%;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+
+
+}
+.block1,
+.block{
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    min-height: 30vh;
+    width: 40%;
+}
+
+
+.form-control{
+    width: 150px;
+}
